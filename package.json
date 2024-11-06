@@ -1,17 +1,39 @@
 {
-  "dependencies": {
-    "body-parser": "^1.20.3",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
-    "express": "^4.21.1"
-  },
   "name": "fuming",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "Fuming is a lightweight and efficient database management system built with TypeScript. It simplifies database operations with type safety, robust query handling, and seamless integration into any modern web application. Fuming is designed as an npm package for easy use in various projects.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
   },
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "scripts": {
+    "build": "tsc",
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grovixlab/fuming.git"
+  },
+  "keywords": [
+    "database",
+    "dbms",
+    "fuming"
+  ],
+  "author": "Sajad",
+  "license": "GNU",
+  "bugs": {
+    "url": "https://github.com/grovixlab/fuming/issues"
+  },
+  "homepage": "https://github.com/grovixlab/fuming#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
+    "nodemon": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "typescript": "^5.4.5"
+  }
 }
