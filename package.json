@@ -1,6 +1,6 @@
 {
   "name": "fuming",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fuming is a lightweight and efficient database management system built with TypeScript. It simplifies database operations with type safety, robust query handling, and seamless integration into any modern web application. Fuming is designed as an npm package for easy use in various projects.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
