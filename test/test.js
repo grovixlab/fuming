@@ -1,7 +1,7 @@
 const { connect, collection } = require('../dist/index');
 
 async function clal() {
-    let collections = await connect('sreya');
+    let collections = await connect('mycollection');
     console.log(collections);
     // collection.create('user')
 
