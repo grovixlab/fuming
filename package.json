@@ -22,7 +22,7 @@
     "fuming"
   ],
   "author": "Sajad",
-  "license": "GNU",
+  "license": "GPL-3.0-only",
   "bugs": {
     "url": "https://github.com/grovixlab/fuming/issues"
   },
